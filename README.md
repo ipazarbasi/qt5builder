@@ -1,6 +1,9 @@
-# Image for building Qt
-This Dockerfile creates a builder that builds a Qt library with selected
+# Dockerfile for building Qt
+This Dockerfile creates a builder that builds a Qt library with a subset of
 submodules, and allows users to install it on top of the host machine as a user.
+
+It's based on Ubuntu 18.04, as it is probably one of the most widely used Linux
+distros. Binaries generated from this image can be usable on other distros.
 
 # Instructions
 * Create a builder:
